@@ -9,6 +9,13 @@ document.addEventListener('DOMContentLoaded', function(){
         if  (taskText === ""){
             alert('Please enter a task.');
         }
+
+        const li = document.createElement('li');
+        li.textContent = 'taskText';
+        const removeButton = document.createElement('button');
+        removeButton.textContent = 'Remove';
+        removeButton.className = "remove-btn"
+
     }
 
 })
